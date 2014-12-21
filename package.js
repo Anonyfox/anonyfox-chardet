@@ -6,7 +6,7 @@ Package.describe({
   git: 'https://github.com/Anonyfox/anonyfox-chardet.git'
 });
 
-Npm.depends('chardet@0.0.8')
+Npm.depends({chardet: '0.0.8'})
 
 Package.onUse(function(api) {
   api.versionsFrom('0.9.0');
