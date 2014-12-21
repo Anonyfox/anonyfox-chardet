@@ -1,1 +1,1 @@
-// Write your package code here!
+chardet = Npm.require('chardet');
